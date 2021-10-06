@@ -28,6 +28,8 @@ public class NasaLogoTest {
 
     }
     @Test()
+    @Tag("Smoke")
+    @Tag("Regression")
     public void testLogoExists() {
         MainPage = new MainPage(driver);
         log.info("testLogoExists is running");
@@ -36,6 +38,7 @@ public class NasaLogoTest {
     }
 
     @Test()
+    @Tag("Regression")
     public void testLogoReload()  {
         MainPage = new MainPage(driver);
         log.info("testLogoReload is running");
@@ -44,6 +47,7 @@ public class NasaLogoTest {
     }
 
     @Test()
+    @Tag("Regression")
     public void testBenefitsToYouBackHomePage()  {
         MainPage = new MainPage(driver);
         log.info("testBenefitsToYouBackHomePage is running");

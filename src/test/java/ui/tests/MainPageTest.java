@@ -3,6 +3,7 @@ package ui.tests;
 import org.apache.log4j.Logger;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -42,6 +43,7 @@ public class MainPageTest {
     }
 
     @Test()
+    @Tag("Smoke")
     public void testMoonToMars()  {
         MainPage = new MainPage(driver);
         MoonToMarsPage = new MoonToMarsPage(driver);
@@ -52,6 +54,7 @@ public class MainPageTest {
     }
 
     @Test()
+    @Tag("Smoke")
     public void testEarth()  {
 
         MainPage = new MainPage(driver);
@@ -62,6 +65,7 @@ public class MainPageTest {
     }
 
     @Test()
+    @Tag("Smoke")
     public void testTopics()  {
         MainPage = new MainPage(driver);
         List<String> Top =  MainPage.findTopics();
@@ -71,6 +75,7 @@ public class MainPageTest {
     }
 
     @Test()
+    @Tag("Smoke")
     public void testDropdown()  {
         MainPage = new MainPage(driver);
         List<String> Dropdown =  MainPage.findDropdown();
@@ -81,6 +86,7 @@ public class MainPageTest {
     }
 
     @Test()
+    @Tag("Smoke")
     public void testSearch()  {
 
         MainPage = new MainPage(driver);

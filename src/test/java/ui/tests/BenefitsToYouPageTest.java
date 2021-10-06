@@ -36,8 +36,7 @@ public class BenefitsToYouPageTest {
 
     }
     @Test()
-    @Description("Тест электроники")
-    @Severity(SeverityLevel.MINOR)
+    @Tag("EndToEnd")
     public void testFacebookFromBenefitsToYouPage()  {
         MainPage = new MainPage(driver);
         BenefitsToYouPage = new BenefitsToYouPage(driver);

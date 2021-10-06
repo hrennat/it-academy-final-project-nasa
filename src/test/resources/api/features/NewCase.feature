@@ -1,3 +1,4 @@
+@api
 Feature: Asteroids - Near Earth Object Web Service
 
   Scenario: Fetch all asteroids
