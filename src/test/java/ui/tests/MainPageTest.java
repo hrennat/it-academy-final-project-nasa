@@ -35,7 +35,7 @@ public class MainPageTest {
 
     @BeforeEach
     public  void setUp() {
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:/Users/User/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.nasa.gov");
